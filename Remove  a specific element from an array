@@ -1,0 +1,13 @@
+import java.util.*;
+public class Main {
+  public static void main(String[] args) {
+  int n[] = {1,2,3,4,5,6};
+  System.out.println("enter the element to be removed");
+  Scanner scan = new Scanner (System.in);
+  int result = scan.nextInt();
+  for(int i=result; i<n.length-1; i++){
+    n[i]=n[i+1];
+  }
+  System.out.println(Arrays.toString(n));
+ }
+}
