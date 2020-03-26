@@ -1,0 +1,11 @@
+import java.util.*;
+public class Main {
+  public static void main(String[] args) {
+  int[] n = {1, 2, 3, 4, 5, 6};
+    List<Integer> list = new ArrayList<>(n.length); 
+      for(int i : n){
+        list.add(Integer.valueOf(i));
+        System.out.println(i);
+      }
+    }
+}
